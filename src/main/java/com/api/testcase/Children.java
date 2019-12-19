@@ -35,7 +35,7 @@ public class Children extends Base {
     }
 
     @Test
-    @Category(Prod.class)
+//    @Category(Prod.class)
     public  void test2Children() {
         System.out.println("test2 Children");
     }

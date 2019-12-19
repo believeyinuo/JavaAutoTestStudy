@@ -3,6 +3,9 @@ package com.api.testcase;
 import org.junit.*;
 import org.junit.runners.MethodSorters;
 
+import static org.hamcrest.CoreMatchers.equalTo;
+import static org.junit.Assert.assertThat;
+
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class Children2 extends Base {
 
@@ -24,6 +27,7 @@ public class Children2 extends Base {
     @Test
     public  void test0Children2() {
         System.out.println("test0 Children2");
+        assertThat(1, equalTo(2));
     }
 
     @Test
